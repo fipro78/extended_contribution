@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_BmdzEEIHEeyN6_pr4Co8hQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_gmoisEILEeyN6_pr4Co8hQ" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_y4xn4EIMEeyN6_pr4Co8hQ" elementId="org.fipro.contribution.integration.command.filenavigatoraction" commandName="File Navigator Action">
+      <parameters xmi:id="_ZAqIcEIOEeyN6_pr4Co8hQ" elementId="contribution.id" name="ID" optional="false"/>
+      <parameters xmi:id="_prQdgEIOEeyN6_pr4Co8hQ" elementId="contribution.type" name="Type" optional="false"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_GZZkUEIMEeyN6_pr4Co8hQ" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_ABxMgEIPEeyN6_pr4Co8hQ" elementId="org.fipro.contribution.integration.handler.0" contributionURI="bundleclass://org.fipro.contribution.integration/org.fipro.contribution.integration.FileNavigatorActionHandler" command="_y4xn4EIMEeyN6_pr4Co8hQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HtheoEIMEeyN6_pr4Co8hQ" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_roOrEEIPEeyN6_pr4Co8hQ" elementId="org.fipro.contribution.integration.menucontribution.0" positionInParent="after=additions" parentId="popup">
+      <children xsi:type="menu:Menu" xmi:id="_E4KeQEIQEeyN6_pr4Co8hQ" elementId="id.navigatorcontributions" label="Navigator Contributions">
+        <visibleWhen xsi:type="ui:ImperativeExpression" xmi:id="_XAC0MEIREeyN6_pr4Co8hQ" contributionURI="bundleclass://org.fipro.contribution.integration/org.fipro.contribution.integration.ResourceExpression"/>
+        <children xsi:type="menu:DynamicMenuContribution" xmi:id="_WKuLMEIQEeyN6_pr4Co8hQ" elementId="org.fipro.contribution.integration.dynamicmenucontribution.0" contributionURI="bundleclass://org.fipro.contribution.integration/org.fipro.contribution.integration.DynamicMenuContribution"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

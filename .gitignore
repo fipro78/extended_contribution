@@ -1,3 +1,14 @@
+.gradle/
+.metadata
+
+#Ignore all bin folders
+bin/
+target/
+generated/
+
+#Ignore all .settings folders
+*/.settings/
+
 # Compiled class file
 *.class
 

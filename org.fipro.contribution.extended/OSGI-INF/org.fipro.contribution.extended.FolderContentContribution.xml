@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.fipro.contribution.extended.FolderContentContribution">
+   <property name="name" value="Folder Content"/>
+   <property name="description" value="Show the number of files in the selected folder"/>
+   <service>
+      <provide interface="org.fipro.contribution.integration.NavigatorMenuContribution"/>
+   </service>
+   <implementation class="org.fipro.contribution.extended.FolderContentContribution"/>
+</scr:component>

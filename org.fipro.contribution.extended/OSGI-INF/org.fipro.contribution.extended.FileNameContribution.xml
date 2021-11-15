@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.fipro.contribution.extended.FileNameContribution">
+   <property name="name" value="File Name"/>
+   <property name="description" value="Show the name of the selected file"/>
+   <service>
+      <provide interface="org.fipro.contribution.integration.NavigatorMenuContribution"/>
+   </service>
+   <implementation class="org.fipro.contribution.extended.FileNameContribution"/>
+</scr:component>

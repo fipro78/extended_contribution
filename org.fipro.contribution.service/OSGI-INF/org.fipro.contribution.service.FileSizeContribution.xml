@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.fipro.contribution.service.FileSizeContribution">
+   <property name="name" value="File Size"/>
+   <property name="description" value="Show the size of the selected file"/>
+   <service>
+      <provide interface="org.fipro.contribution.integration.NavigatorMenuContribution"/>
+   </service>
+   <implementation class="org.fipro.contribution.service.FileSizeContribution"/>
+</scr:component>

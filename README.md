@@ -1,2 +1,5 @@
-# extended_contribution
-Example showing the Eclipse Extended Contribution Pattern based on OSGi DS and the Eclipse 4 programming model
+# Eclipse Extended Contribution Pattern
+This repository is showing the *Eclipse Extended Contribution Pattern* based on OSGi Declarative Services and the Eclipse 4 programming model.
+
+The blog post that explains the *Eclipse Extended Contribution Pattern* and its purpose can be found here:
+[Eclipse Extended Contribution Pattern](http://blog.vogella.com/2021/11/16/eclipse-extended-contribution-pattern/).
